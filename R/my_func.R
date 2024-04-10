@@ -46,17 +46,17 @@ calculate_cylinder_volume <- function(radius, height) {
 
 
 
-#' @title FUNCTION_TITLE
-#' @description FUNCTION_DESCRIPTION
-#' @param length PARAM_DESCRIPTION
-#' @param width PARAM_DESCRIPTION
-#' @return OUTPUT_DESCRIPTION
-#' @details DETAILS
+#' @title Calculate Area of a Rectangle
+#' @description This function calculates the area of a rectangle given its length and width.
+#' @param length The length of the rectangle.
+#' @param width The width of the rectangle.
+#' @return The calculated area of the rectangle.
+#' @details The area of a rectangle is computed by multiplying its length by its width.
 #' @examples
 #' \dontrun{
 #' if(interactive()){
-#'  #EXAMPLE1
-#'  }
+#'   calculate_rectangle_area(5, 3)  # Output: 15
+#' }
 #' }
 #' @rdname calculate_rectangle_area
 #' @export
@@ -65,3 +65,4 @@ calculate_rectangle_area <- function(length, width) {
   area <- length * width
   return(area)
 }
+

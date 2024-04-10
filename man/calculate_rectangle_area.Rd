@@ -2,28 +2,28 @@
 % Please edit documentation in R/my_func.R
 \name{calculate_rectangle_area}
 \alias{calculate_rectangle_area}
-\title{FUNCTION_TITLE}
+\title{Calculate Area of a Rectangle}
 \usage{
 calculate_rectangle_area(length, width)
 }
 \arguments{
-\item{length}{PARAM_DESCRIPTION}
+\item{length}{The length of the rectangle.}
 
-\item{width}{PARAM_DESCRIPTION}
+\item{width}{The width of the rectangle.}
 }
 \value{
-OUTPUT_DESCRIPTION
+The calculated area of the rectangle.
 }
 \description{
-FUNCTION_DESCRIPTION
+This function calculates the area of a rectangle given its length and width.
 }
 \details{
-DETAILS
+The area of a rectangle is computed by multiplying its length by its width.
 }
 \examples{
 \dontrun{
 if(interactive()){
- #EXAMPLE1
- }
+  calculate_rectangle_area(5, 3)  # Output: 15
+}
 }
 }
