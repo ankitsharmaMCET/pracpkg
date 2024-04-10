@@ -2,26 +2,26 @@
 % Please edit documentation in R/my_func.R
 \name{is_even}
 \alias{is_even}
-\title{FUNCTION_TITLE}
+\title{Check if a Number is Even}
 \usage{
 is_even(x)
 }
 \arguments{
-\item{x}{PARAM_DESCRIPTION}
+\item{x}{The number to be checked.}
 }
 \value{
-OUTPUT_DESCRIPTION
+Logical value indicating whether the input number is even (`TRUE`) or not (`FALSE`).
 }
 \description{
-FUNCTION_DESCRIPTION
+This function checks if a given number is even.
 }
 \details{
-DETAILS
+This function checks whether the input number `x` is divisible by 2 without remainder.
 }
 \examples{
 \dontrun{
 if(interactive()){
- #EXAMPLE1
- }
+  is_even(4)  # Output: TRUE
+}
 }
 }
