@@ -2,7 +2,27 @@ Package: pracpkg
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Who wrote it
+Authors@R: c(
+    person(given = "Lisa",
+           family = "DeBruine",
+           role = c("aut", "cre"),
+           email = "debruine@gmail.com",
+           comment = c(ORCID = "0000-0002-7523-5539")),
+    person(given = "Firstname",
+           family = "Lastname",
+           role = c("aut"),
+           email = "person@gmail.com",
+           comment = c(ORCID = "0000-0000-0000-0007")),
+    person(given = "Firstname1",
+           family = "Lastname1",
+           role = c("pro"),
+           email = "person1@gmail.com",
+           comment = c(ORCID = "0000-0000-0000-0006")),
+    person(given = "Firstname2",
+           family = "Lastname2",
+           role = c("T"),
+           email = "person2@gmail.com",
+           comment = c(ORCID = "0000-0000-0000-0005")))
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
