@@ -3,3 +3,4 @@
 export(calculate_cylinder_volume)
 export(calculate_rectangle_area)
 export(is_even)
+export(newstudent)
